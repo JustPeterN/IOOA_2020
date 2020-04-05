@@ -25,7 +25,7 @@ public class TextFileUtilities {
         return result;
     }
 
-    public static String opschonenwoord(String word){
+    public static String opschonenWoord(String word){
 
         word = word.replaceAll("\\p{Punct}","");
 
