@@ -12,7 +12,7 @@ public class TextMining {
 
         for(String line : result){
             for(String word : line.split(" ")){
-                word = TextFileUtilities.opschonenWoord(word);
+                word = TextFileUtilities.opschonenwoord(word);
                 if(!word.equals("")){
                     if(word2frequency.containsKey(word)){
                         int count = word2frequency.get(word);
